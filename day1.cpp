@@ -9,7 +9,7 @@ void part_1() {
    int results = -1;
 
    std::fstream myfile;
-   std::string fileName = "input";
+   std::string fileName = "input_day1";
    myfile.open(fileName, std::ios::in);
 
 
