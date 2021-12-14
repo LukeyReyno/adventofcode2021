@@ -34,3 +34,4 @@
 # Repo Specific
 .vscode
 *input*
+*out*

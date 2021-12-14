@@ -4,7 +4,6 @@
 #include <sstream>
 #include <map>
 #include <fstream>
-#include <bitset>
 
 class BingoSpace {
    public:
@@ -25,7 +24,7 @@ void printBingCardList(std::vector<std::vector<std::vector<BingoSpace>>> bingos)
    for (auto bingo : bingos) {
       std::cout << "{" << std::endl;
       for (auto row : bingo) {
-         for (auto bingoSpace : row) {//TODO:
+         for (auto bingoSpace : row) {
             std::cout << bingoSpace.marked << ", ";
          }
          std::cout << std::endl;
